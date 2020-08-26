@@ -26,6 +26,7 @@ export default {
 }
 
 img {
+  width: 300px;
   height: auto;
   border-radius: 50%;
   transition: 0.3s;
