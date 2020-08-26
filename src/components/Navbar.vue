@@ -1,14 +1,11 @@
 <template>
   <div>
     <link rel="stylesheet" href="Regular-CSS.css">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
         <img src="../assets/ah.png" width="30" height="30" alt="">
       </a>
       <a class="navbar-brand" href="#">Will does tech</a>
-      <button class="navbar-toggler" type="button" data-toggle="expand" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -23,7 +20,7 @@
         </ul>
       </div>
     </nav>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
   </div>
 </template>
 
@@ -53,10 +50,29 @@ export default {
   ],
   methods: {
 
+  },
+  created() {
+
   }
 }
 </script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap');
+
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
 </style>
