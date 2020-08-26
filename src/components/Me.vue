@@ -29,7 +29,7 @@ export default {
 }
 
 .pic img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   border-radius: 50%;
   transition: 0.3s;
