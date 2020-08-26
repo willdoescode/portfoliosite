@@ -12,13 +12,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#"><img style="width: 22px" src="../assets/home.png">&nbsp;<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" :href="links['Contact Me']">Contact Me </a>
+            <a class="nav-link" target="_blank" :href="links['Contact Me']"><img src="https://user-images.githubusercontent.com/25087769/87174308-a4680f00-c2df-11ea-90b0-5fa1fa76d2f1.png"/></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" :href="links['My Github']">My Github </a>
+            <a class="nav-link" target="_blank" :href="links['My Github']"><img style="width: 22px" src="../assets/githublogo.png"/></a>
           </li>
         </ul>
       </div>
