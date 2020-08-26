@@ -3,12 +3,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <a target="_blank" href="mailto:williamlane923@gmail.com"><img src="https://user-images.githubusercontent.com/25087769/87174308-a4680f00-c2df-11ea-90b0-5fa1fa76d2f1.png"/></a> &nbsp;
     <a target="_blank" href="https://github.com/willdoescode"><img style="width: 22px" src="../assets/githublogo.png"/></a> &nbsp;
+    <br>
+    <br>
+    <div class="copyright">
+      © {{ getYear() }}
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Socials'
+  name: 'Socials',
+  methods: {
+    getYear() {
+      return new Date().getFullYear()
+    }
+  }
 }
 </script>
 
@@ -29,5 +39,9 @@ export default {
 
 .icons img:hover {
   transform: scale(1.1);
+}
+
+.copyright {
+  color: white;
 }
 </style>
