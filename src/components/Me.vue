@@ -29,7 +29,6 @@ export default {
 }
 
 .pic img {
-  max-width: 100%;
   height: auto;
   border-radius: 50%;
   transition: 0.3s;
@@ -37,6 +36,9 @@ export default {
 }
 
 .container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .pic img:hover {
