@@ -31,12 +31,16 @@ export default {
 
 .container {
   padding-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .container p {
   color: white;
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 20px;
+  width: 60vw;
 }
 
 .container a {

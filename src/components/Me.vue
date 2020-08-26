@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-      <img class="justify-content-lg-center" :src="itsMe" alt="">
+      <img :src="itsMe" alt="">
   </div>
 </template>
 
@@ -34,7 +34,7 @@ img {
 
 
 img:hover {
-  border-radius: 25%;
+  border-radius: 15px;
   cursor: pointer;
 }
 </style>
