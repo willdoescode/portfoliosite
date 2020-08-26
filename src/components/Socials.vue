@@ -8,6 +8,7 @@
     <div class="copyright">
       © {{ getYear() }}
     </div>
+    <!-- Hello -->
   </div>
 </template>
 
