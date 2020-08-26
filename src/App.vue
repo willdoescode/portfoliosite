@@ -2,7 +2,7 @@
   <div id="app">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <Navbar class="nav" />
-    <Me />
+    <Me  class="what"/>
     <About />
     <Socials class="bob" />
   </div>
@@ -51,4 +51,7 @@ export default {
   justify-content: space-around;
   height: auto;
 }
+.what {
+}
+
 </style>
