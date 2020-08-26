@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <div class="pic">
-      <img :src="itsMe" alt="">
-    </div>
+      <img class="justify-content-lg-center" :src="itsMe" alt="">
   </div>
 </template>
 
@@ -27,19 +25,15 @@ export default {
   padding: 0;
 }
 
-.pic img {
+img {
   height: auto;
   border-radius: 50%;
   transition: 0.3s;
   padding: 10px;
-  display: inline;
 }
 
-.pic {
-  text-align: center;
-}
 
-.pic img:hover {
+img:hover {
   border-radius: 25%;
   cursor: pointer;
 }
