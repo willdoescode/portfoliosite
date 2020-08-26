@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div class="pic">
       <img :src="itsMe" alt="">
     </div>
@@ -33,12 +32,11 @@ export default {
   border-radius: 50%;
   transition: 0.3s;
   padding: 10px;
+  display: inline;
 }
 
-.container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+.pic {
+  text-align: center;
 }
 
 .pic img:hover {
