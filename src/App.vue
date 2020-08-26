@@ -51,7 +51,9 @@ export default {
   justify-content: space-around;
   height: auto;
 }
-.what {
+
+.container {
+  max-width: 100% !important;
 }
 
 </style>
