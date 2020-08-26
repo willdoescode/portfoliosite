@@ -53,7 +53,7 @@ export default {
 }
 
 .container {
-  max-width: 100% !important;
+  max-width: 100%;
 }
 
 </style>
