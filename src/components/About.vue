@@ -2,7 +2,7 @@
   <div class="container">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <p class="about">
-      Hi, My name is William Lane. I am a {{ getYear() }} year old highschool student, and I do code!
+      Hi, My name is William Lane. I am a {{ getYear() }} year old high school student, and I do code!
       My coding journey so far has been interesting. I started with python and I liked it very much. Using python I wrote a automated
       <a target="_blank" href="https://github.com/willdoescode/bot">bot</a> for the popular chat service called discord. Then I moved on to Java, and wrote a
       <a target="_blank" href="https://github.com/willdoescode/willsautoclick">autoclicker</a> using the popular Java library called swing.
@@ -18,7 +18,17 @@ export default {
   methods: {
     getYear() {
       let year = new Date().getFullYear()
+      if (new Date().getMonth() < 9 && new Date().getDay() < 23) {
+        year--
+      }
       return  year - 2006
+    }
+  },
+  data() {
+    return {
+      months: {
+
+      }
     }
   },
   created() {

@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <meta property="og:name" content="https://www.willdoes.tech/img/me.501e27ea.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <Navbar class="nav" />
     <Me class="what"/>

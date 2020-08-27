@@ -30,7 +30,7 @@ export default {
   float: bottom;
 }
 
-.icons a{
+.icons a {
   padding: 10px;
 }
 
