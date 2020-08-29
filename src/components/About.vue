@@ -4,7 +4,7 @@
     <p class="about">
 <!--      my about paragraph-->
       Hi, My name is William Lane. I am a {{ getYear() }} year old high school student, and am a coder!
-      My coding journey so far has been interesting. I started with python and I liked it very much. U sing python I wrote an automated
+      My coding journey so far has been interesting. I started with python and I liked it very much. Using python I wrote an automated
       <a target="_blank" href="https://github.com/willdoescode/bot">bot</a> for the popular chat service called discord. Then I moved on to Java, and wrote an
       <a target="_blank" href="https://github.com/willdoescode/willsautoclick">autoclicker</a> using the popular Java library called swing.
       Now I am at the web dev stage of my coding journey, I am learning the Vue.Js framework, which I wrote <a target="_blank" href="https://github.com/willdoescode/portfoliosite">this site</a> in and I am enjoying web dev very much.
