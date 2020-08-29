@@ -54,4 +54,9 @@ export default {
   justify-content: space-around;
   height: auto;
 }
+
+.container {
+  max-width: 100%;
+}
+
 </style>
