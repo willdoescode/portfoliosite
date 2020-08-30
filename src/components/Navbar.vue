@@ -6,9 +6,9 @@
 <!--      navbar section-->
       <a class="navbar-brand" href="/">
 <!--        coding icon to the right of the navbar goes to the root of the website-->
-        <img src="../assets/ah.png" width="30" height="30" alt="">
+        <img class="stupid" src="../assets/ah.png" width="30" height="30" alt="">
       </a>
-      <a class="navbar-brand" href="/" style="color: #ffaaaa;">Will does tech</a>
+      <a class="navbar-brand" href="/" style="color: peru; font-size: 2vh">Will does tech</a>
 <!--      site name also goes to root of site-->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -85,5 +85,28 @@ export default {
 
 .navbar-brand {
   padding-top: 10px!important;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+/*couldnt think of a better class name*/
+.stupid {
+  transition: 0.3s;
+}
+
+.stupid:hover {
+  transform: scale(1.1);
 }
 </style>
