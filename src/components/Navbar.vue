@@ -8,7 +8,7 @@
 <!--        coding icon to the right of the navbar goes to the root of the website-->
         <img class="stupid" src="../assets/ah.png" width="30" height="30" alt="">
       </a>
-      <a class="navbar-brand" href="/" style="color: peru; font-size: 2vh">Will does tech</a>
+      <a class="navbar-brand" href="/" style="color: coral; font-size: 2.5vh">Will does tech</a>
 <!--      site name also goes to root of site-->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -109,4 +109,5 @@ export default {
 .stupid:hover {
   transform: scale(1.1);
 }
+
 </style>

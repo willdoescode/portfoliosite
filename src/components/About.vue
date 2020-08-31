@@ -40,6 +40,7 @@ export default {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .container p {
@@ -48,11 +49,12 @@ export default {
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 20px;
   width: 60vw;
+  border: 1px solid peru;
 }
 
 .container a {
   /*change colors for hrefs*/
-  color: peru;
+  color: coral;
   font-weight: 800;
   transition: 0.3s;
 }

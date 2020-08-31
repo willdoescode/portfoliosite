@@ -33,6 +33,7 @@ img {
   transition: 0.3s;
   /*make it transition slower*/
   padding: 10px;
+  background-image: linear-gradient(to bottom, peru, coral);
 }
 
 
@@ -41,4 +42,5 @@ img:hover {
   border-radius: 15px;
   cursor: pointer;
 }
+
 </style>

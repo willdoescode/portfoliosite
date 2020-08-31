@@ -55,6 +55,7 @@ export default {
   height: auto;
 }
 
+/*this particular class isn't in this file but im styling it here anyway*/
 .container {
   max-width: 100%;
 }
