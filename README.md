@@ -1,6 +1,6 @@
 # First website
 
-## [The live site](https://www.wildoes.tech)
+## [The live site](https://www.willdoes.tech)
 
 ## Horizontal version
 
