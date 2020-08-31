@@ -1,10 +1,10 @@
 # First website
 
-##Horizontal version
+## Horizontal version
 
 ![Site](read.png)
 
-##Vertical version
+## Vertical version
 
 ![vertsite](vertical.png)
 
