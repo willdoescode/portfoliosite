@@ -46,6 +46,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   background-color: #343a40;
+  height: 100vh;
 /*  set a default background color to make site look nice and modern*/
 }
 

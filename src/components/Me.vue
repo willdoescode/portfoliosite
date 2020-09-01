@@ -21,7 +21,7 @@ export default {
 <style scoped>
 * {
   /*basic all encompassing styling*/
-  margin-top: 40px;
+  margin-top: 15px;
   padding: 0;
 }
 
