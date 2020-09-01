@@ -5,6 +5,7 @@
     <Navbar class="nav" />
     <Me class="what"/>
     <About />
+    <Posts />
     <Socials class="bob" />
   </div>
 </template>
@@ -14,6 +15,7 @@ import Navbar from "@/components/Navbar";
 import Me from "@/components/Me";
 import Socials from "@/components/Socials";
 import About from "@/components/About";
+import Posts from "@/components/Posts"
 // import all the components
 
 export default {
@@ -24,6 +26,7 @@ export default {
     Me,
     About,
     Socials,
+    Posts
   }
 }
 </script>

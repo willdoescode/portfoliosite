@@ -9,7 +9,6 @@
       <a target="_blank" href="https://github.com/willdoescode/willsautoclick">autoclicker</a> using the popular Java library called swing.
       Now I am at the web dev stage of my coding journey, I am learning the progressive JS framework called Vue.Js, which I wrote <a target="_blank" href="https://github.com/willdoescode/portfoliosite">this site</a> in and I am enjoying web dev very much.
     </p>
-
   </div>
 </template>
 
@@ -41,6 +40,7 @@ export default {
   display: flex;
   justify-content: center;
   margin-top: 35px;
+
 }
 
 .container p {
