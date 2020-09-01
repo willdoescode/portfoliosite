@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a href="#" class="navbar-brand">Will Does Tech</a>
+      <router-link to="/" class="navbar-brand">Will Does Tech</router-link>
       <button
           class="navbar-toggler"
           type="button"
