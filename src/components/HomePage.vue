@@ -1,18 +1,23 @@
 <template>
   <div id="app">
-    <Navbar class="nav" />
-    <router-view />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--    include all of the components-->
+    <Me class="what"/>
+    <Socials class="bob" />
   </div>
 </template>
 
 <script>
-import Navbar from "@/components/Navbar";
+import Me from "@/components/Me";
+import Socials from "@/components/Socials";
+// import all the components
 
 export default {
   // declare all the components
   name: 'App',
   components: {
-    Navbar,
+    Me,
+    Socials,
   }
 }
 </script>
@@ -36,7 +41,7 @@ export default {
   color: #2c3e50;
   background-color: #343a40;
   height: 100vh;
-/*  set a default background color to make site look nice and modern*/
+  /*  set a default background color to make site look nice and modern*/
 }
 
 .bob {

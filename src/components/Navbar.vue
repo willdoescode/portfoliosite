@@ -8,7 +8,10 @@
 <!--        coding icon to the right of the navbar goes to the root of the website-->
         <img class="stupid" src="../assets/ah.png" width="30" height="30" alt="">
       </a>
-      <a class="navbar-brand" href="/" style="color: coral; font-size: 2.5vh">Will does tech</a>
+      <router-link class="navbar-brand" href="/" style="color: white; font-size: 2.5vh; margin-bottom: 3px" to="/">Will does tech</router-link>
+      <li class="nav-item active">
+        <router-link class="nav-link" to="/about">About</router-link>
+      </li>
 <!--      site name also goes to root of site-->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -25,6 +28,7 @@
             <a class="nav-link" target="_blank" :href="links['My Github']"><img style="width: 22px" src="../assets/githublogo.png"/></a>
 <!--            github logo that goes to my github account-->
           </li>
+
         </ul>
       </div>
     </nav>
@@ -108,6 +112,15 @@ export default {
 
 .stupid:hover {
   transform: scale(1.1);
+}
+
+.nav-link {
+  color: coral;
+  font-size: 2.5vh;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
 
 </style>
