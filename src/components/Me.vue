@@ -40,7 +40,6 @@ img {
 img:hover {
   /*make a nice hover effect*/
   border-radius: 15px;
-  cursor: pointer;
 }
 
 </style>
