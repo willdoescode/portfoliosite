@@ -40,7 +40,7 @@ export default {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .container p {
