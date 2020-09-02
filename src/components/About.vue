@@ -54,7 +54,7 @@ export default {
 
 .container a {
   /*change colors for hrefs*/
-  color: #08F7FE;
+  color: #FE53BB;
   font-weight: 800;
   transition: 0.3s;
 }
