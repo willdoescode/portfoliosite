@@ -4,6 +4,7 @@ import HomePage from "@/components/HomePage";
 import About from "@/components/About";
 import Contacts from "@/components/Contacts";
 import Webdesign from "@/components/Webdesign";
+import Testdesign from "@/webdesign/Testdesign";
 
 Vue.use(Router)
 
@@ -13,6 +14,7 @@ export default new Router({
         { path: '/', name: 'Home', component: HomePage },
         { path: '/about', name: 'About', component: About },
         { path: '/contacts', name: 'Contacts', component: Contacts },
-        { path: '/webdesign', name: 'Webdesign', component: Webdesign }
+        { path: '/webdesign', name: 'Webdesign', component: Webdesign },
+        { path: '/webdesign/testdesign', name: 'Testdesign', component: Testdesign }
     ]
 })
