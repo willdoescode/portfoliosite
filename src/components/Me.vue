@@ -2,6 +2,7 @@
   <div class="container">
 <!--    picture of me-->
       <img :src="itsMe" alt="">
+      <h3>My name is Will Lane</h3>
   </div>
 </template>
 
@@ -33,13 +34,16 @@ img {
   transition: 0.3s;
   /*make it transition slower*/
   padding: 10px;
-  background-image: linear-gradient(to bottom, peru, coral);
+  background-image: linear-gradient(to bottom, #08F7FE, #09FBD3, #FE53BB, #F5D300);
 }
-
 
 img:hover {
   /*make a nice hover effect*/
   border-radius: 15px;
+}
+
+h3 {
+  margin-top: 25px;
 }
 
 </style>

@@ -49,12 +49,12 @@ export default {
   font-family: 'Baloo Tamma 2', cursive;
   font-size: 20px;
   width: 60vw;
-  border: 1px solid peru;
+  border: 1px solid #08F7FE;
 }
 
 .container a {
   /*change colors for hrefs*/
-  color: coral;
+  color: #08F7FE;
   font-weight: 800;
   transition: 0.3s;
 }
