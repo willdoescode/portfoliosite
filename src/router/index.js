@@ -7,9 +7,10 @@ import Notfound from "@/components/Notfound";
 Vue.use(Router)
 
 export default new Router({
+    mode: 'history',
     routes: [
-        { path: '/', component: HomePage },
-        { path: '/about', component: About},
+        { path: '/', name: 'Home', component: HomePage },
+        { path: '/about', name: 'About',component: About},
         { path: '/:id', component: Notfound }
     ]
 })
