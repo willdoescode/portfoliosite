@@ -1,7 +1,7 @@
 <template>
   <div class="container">
 <!--    picture of me-->
-      <img :src="itsMe" alt="">
+      <img src="https://raw.githubusercontent.com/willdoescode/willdoescode/master/willdoescode.JPG" alt="me">
       <h3>My name is Will Lane</h3>
   </div>
 </template>
@@ -10,12 +10,6 @@
 
 export default {
   name: 'Me',
-  data() {
-    return {
-      // required picture so when the vue is compiled it still works
-      itsMe: require('../assets/me.jpg')
-    }
-  },
 }
 </script>
 
