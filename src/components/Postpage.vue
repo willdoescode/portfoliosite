@@ -2,7 +2,7 @@
   <div class="main">
     <meta property="og:title" content="Wills Very Smart Posts">
     <div class="post" v-for="post in posts" :key="post">
-      <router-link class="nav-link" :to="{ name: 'posts', params: {id: post.id} }">{{ post.title }}</router-link>
+      <router-link class="nav-link" :tite="post.title" :bod="post.body" :to="{ name: 'posts', params: {id: post.id} }">{{ post.title }}</router-link>
     </div>
   </div>
 </template>

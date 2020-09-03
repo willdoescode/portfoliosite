@@ -3,30 +3,17 @@
     <div class="back">
       <router-link class="back-button" to="/posts">Back</router-link>
     </div>
-    <h1>{{post.title}}</h1>
-    <h3>{{post.body}}</h3>
+    <h1>{{ tite }}</h1>
+    <h3>{{ bod }}</h3>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Post.vue',
-  methods: {
-
-  },
-  components: {
-  },
-  data() {
-    return {
-      post: undefined
-    }
-  },
-  beforeMount() {
-    fetch(`https://raw.githubusercontent.com/willdoescode/webposts/master/posts/posts.json`)
-    .then(data => data.json())
-    .then(res => this.post = {...res[this.$route.params.id]})
-  },
-  created() {
+  props: {
+    tite: String,
+    bod: String
   }
 }
 </script>
