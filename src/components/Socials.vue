@@ -1,12 +1,6 @@
 <template>
   <div class="icons">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--    add two icons to include at the bottom of my page to make it look more professional-->
-    <a target="_blank" href="mailto:williamlane923@gmail.com"><img src="https://user-images.githubusercontent.com/25087769/87174308-a4680f00-c2df-11ea-90b0-5fa1fa76d2f1.png"/></a> &nbsp;&nbsp;
-    <a target="_blank" href="https://github.com/willdoescode"><img style="width: 22px" src="../assets/githublogo.png"/></a>
-    <br>
-<!--    blank lines for formatting-->
-    <br>
     <div class="copyright">
 <!--      funny copyright thing, all websites have it so i might as well, also made it change with the year-->
       © {{ getYear() }}

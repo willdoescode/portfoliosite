@@ -38,6 +38,7 @@ img:hover {
 
 h3 {
   margin-top: 25px;
+  color: white;
 }
 
 </style>

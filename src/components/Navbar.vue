@@ -29,8 +29,13 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/webdesign">Web Design</router-link>
             </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/posts">Posts</router-link>
+            </li>
+            <li class="nav-item">
+              <span class="navbar-text">@willdoescode</span>
+            </li>
           </ul>
-          <span class="navbar-text"></span>
         </div>
       </nav>
     </div>

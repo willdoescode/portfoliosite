@@ -1,17 +1,15 @@
 <template>
-  <div class="container">
-    <h1>Test</h1>
+  <div>
+
   </div>
 </template>
 
 <script>
 export default {
-  name: "Contacts"
+  name: 'Contacts'
 }
 </script>
 
-<style>
-.container {
-  color: white;
-}
+<style scoped>
+
 </style>
