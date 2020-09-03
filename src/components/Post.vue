@@ -32,6 +32,10 @@ export default {
 </script>
 
 <style scoped>
+*:hover {
+  cursor: default;
+}
+
 h1 {
   color: white;
 }
