@@ -3,8 +3,8 @@
     <div class="back">
       <router-link class="back-button" to="/posts">Back</router-link>
     </div>
-    <h1>{{post.title}}</h1>
-    <h3>{{post.body}}</h3>
+    <h1>{{ post.title }}</h1>
+    <h3>{{ post.body }}</h3>
   </div>
 </template>
 
