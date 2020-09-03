@@ -1,8 +1,8 @@
 <template>
   <div class="contain">
     <div class="contacts">
-      <a href="https://github.com/willdoescode">My Github</a>
-      <a href="mailto:williamlane923@gmail.com">Email Me</a>
+      <a target="_blank" href="https://github.com/willdoescode">My Github</a>
+      <a target="_blank" href="mailto:williamlane923@gmail.com">Email Me</a>
     </div>
   </div>
 </template>
@@ -44,6 +44,7 @@ a {
   color: darkgrey;
   text-transform: uppercase;
   font-weight: 800;
+  font-size: 22px;
 }
 
 a:hover {
