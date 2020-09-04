@@ -25,6 +25,7 @@ export default {
     fetch(`https://raw.githubusercontent.com/willdoescode/webposts/master/posts/posts.json`)
     .then(data => data.json())
     .then(res => this.post = {...res[this.$route.params.id]})
+    .then(what => console.log(what))
   },
   created() {
   }
@@ -84,6 +85,7 @@ h1:hover {
   text-decoration: none;
   padding-left: 5px;
   padding-right: 5px;
+  cursor: pointer;
 }
 
 .back:hover {
