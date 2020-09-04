@@ -55,6 +55,7 @@ h3:hover {
 .post {
   display: flex;
   flex-direction: column;
+  min-width: 300px;
   align-items: center;
   margin-top: 30px;
 }
@@ -72,8 +73,9 @@ h1:hover {
 }
 
 .back {
+  display: flex;
   margin-bottom: 30px;
-  margin-right: 400px;
+  margin-right: 200px;
   font-size: 20px;
   border: 1px solid #FE53BB;
   padding: 3px;
