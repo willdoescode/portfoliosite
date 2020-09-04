@@ -39,7 +39,7 @@ export default {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 35px;
+  margin: 10% auto;
 
 }
 

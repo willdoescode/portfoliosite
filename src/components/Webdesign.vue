@@ -39,6 +39,6 @@ h1 {
 }
 
 .wow {
-  margin-top: 50px;
+  margin: 10% auto;
 }
 </style>
