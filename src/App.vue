@@ -1,6 +1,9 @@
 <template>
   <div id="app">
+<!--    I keep the navbar separate from the router so its available everywhere-->
     <Navbar class="nav" />
+<!--    router view is the view of the website inside of the router so instead of defining components
+        here I just define them in the component I use for the router called HomePage.vue-->
     <router-view />
   </div>
 </template>
@@ -14,6 +17,7 @@ export default {
   components: {
     Navbar,
   },
+  // This dynamically changes the tab name based off of the current route
   watch: {
     '$route' (to) {
       document.title = to.meta.title || 'Your Website'

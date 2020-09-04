@@ -13,18 +13,21 @@ export default {
   name: 'Postpage',
   data() {
     return {
+      // Keep all my posts in an array
       posts: [],
       thing: '/posts/'
     }
   },
   methods: {
     getAmount() {
+      // I fetch all of the post data in json
       fetch(`https://raw.githubusercontent.com/willdoescode/webposts/master/posts/posts.json`)
         .then(res => res.json())
         .then(data => (this.posts = data))
     },
   },
   beforeMount() {
+    // Run the getamount before mount for a seamless user experience
     this.getAmount()
   },
 }

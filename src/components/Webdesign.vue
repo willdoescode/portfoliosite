@@ -3,6 +3,7 @@
     <div class="wow">
       <h1>This part of my website is for web design class</h1>
       <div class="container">
+<!--        router links set up for website design projects-->
         <router-link class="nav-link" to="/webdesign/testdesign">Test Design</router-link>
         <router-link class="nav-link" to="/webdesign/testdesign">Test Design</router-link>
         <router-link class="nav-link" to="/webdesign/testdesign">Test Design</router-link>

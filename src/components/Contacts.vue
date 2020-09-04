@@ -1,6 +1,7 @@
 <template>
   <div class="contain">
     <div class="contacts">
+<!--      hrefs for my contact page-->
       <a target="_blank" href="https://github.com/willdoescode">My Github</a>
       <a target="_blank" href="mailto:williamlane923@gmail.com">Email Me</a>
     </div>
