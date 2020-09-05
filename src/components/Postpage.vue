@@ -2,7 +2,13 @@
   <div class="main">
     <meta property="og:title" content="Wills Very Smart Posts">
     <div class="post" v-for="post in posts" :key="post">
-      <router-link data-hover="Click Me" class="nav-link" :to="{ name: 'posts', params: {id: post.id} }"><div>{{ post.title }}</div></router-link>
+      <router-link data-hover="Click Me" class="nav-link" :to="{ name: 'posts', params: {id: post.id} }">
+        <div>{{ post.title }}
+        <div class="desc">
+          <p>{{ post.desc }}</p>
+        </div>
+      </div>
+      </router-link>
     </div>
   </div>
 </template>
@@ -97,7 +103,7 @@ div {
 
 .nav-link:hover div{opacity: 0; transform: translate(100%,0)}
 .nav-link div{
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 3px;
   font-weight: 800;
   font-size: .8em;
@@ -108,5 +114,14 @@ div {
   color: white;
   text-decoration: Scrollbar;
   border: 1px solid #FE53BB;
+}
+
+.desc {
+  margin-top: 5px;
+}
+
+.desc p{
+  text-transform: lowercase;
+  font-size: 15px;
 }
 </style>
