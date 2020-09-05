@@ -58,4 +58,27 @@ export default {
 .container {
   max-width: 100%;
 }
+
+/*custom scroll bar*/
+::-webkit-scrollbar {
+  /*make it kinda small*/
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  /*no custom background rn*/
+  background: #343a40;
+}
+
+::-webkit-scrollbar-thumb {
+  /*sticking with the color scheme*/
+  background: #09FBD3;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /*still sticking with the color scheme*/
+  background: #FE53BB;
+}
+
 </style>

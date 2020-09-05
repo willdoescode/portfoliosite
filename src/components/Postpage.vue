@@ -2,7 +2,7 @@
   <div class="main">
     <meta property="og:title" content="Wills Very Smart Posts">
     <div class="post" v-for="post in posts" :key="post">
-      <router-link data-hover="Click on me" class="nav-link" :to="{ name: 'posts', params: {id: post.id} }"><div>{{ post.title }}</div></router-link>
+      <router-link data-hover="Click Me" class="nav-link" :to="{ name: 'posts', params: {id: post.id} }"><div>{{ post.title }}</div></router-link>
     </div>
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
       fetch(`https://raw.githubusercontent.com/willdoescode/webposts/master/posts/posts.json`)
         .then(res => res.json())
         .then(data => (this.posts = data))
-    },
+    }
   },
   beforeMount() {
     // Run the getamount before mount for a seamless user experience
@@ -107,6 +107,6 @@ div {
 .nav-link:hover {
   color: white;
   text-decoration: Scrollbar;
-  border: 2px solid #FE53BB;
+  border: 1px solid #FE53BB;
 }
 </style>
