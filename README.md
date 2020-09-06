@@ -2,10 +2,6 @@
 
 ## [The live site](https://www.willdoes.tech)
 
-## Horizontal version
-
-![Site](read.png)
-
 ## Project setup
 ```
 npm install
