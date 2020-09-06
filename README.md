@@ -1,6 +1,6 @@
 # First website
 
-## [The live site](https://www.willdoes.tech)
+## [The live site](https://will.tools)
 
 ## Project setup
 ```
