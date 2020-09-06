@@ -6,10 +6,6 @@
 
 ![Site](read.png)
 
-## Vertical version
-
-![vertsite](vertical.png)
-
 ## Project setup
 ```
 npm install

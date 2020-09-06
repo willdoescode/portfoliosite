@@ -120,7 +120,7 @@ div {
   margin-top: 5px;
 }
 
-.desc p{
+.desc p {
   text-transform: lowercase;
   font-size: 15px;
 }
