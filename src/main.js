@@ -6,11 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import * as j from 'jquery'
 import router from './router'
 import VueScrollProgressBar from '@guillaumebriday/vue-scroll-progress-bar'
+import VueClipboard from 'vue-clipboard2'
 
 Vue.config.productionTip = false
 Vue.use(bootstrap)
 Vue.use(j)
 Vue.use(VueScrollProgressBar)
+Vue.use(VueClipboard)
 
 new Vue({
   // Defines router as a plugin basically for vue
