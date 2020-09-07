@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <vue-scroll-progress-bar
+        height="5px"
+        background-color="linear-gradient(to right, #08F7FE, #09FBD3, #FE53BB, #F5D300)"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--    include all of the components-->
     <Me class="what"/>
