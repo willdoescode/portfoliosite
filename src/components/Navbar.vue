@@ -4,7 +4,7 @@
 <!--      define a navbar-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <!--        default link for my website to go home from all areas-->
-        <router-link to="/" class="navbar-brand">Will Does Tech</router-link>
+        <router-link active-class="active" to="/" class="navbar-brand">Will Does Tech</router-link>
 <!--        this button is only visible if the website has a small width, thank you bootstrap-->
         <button
             class="navbar-toggler"
@@ -22,24 +22,24 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
 <!--              home button-->
-              <router-link class="nav-link" to="/">Home<span class="sr-only">(current)</span>
+              <router-link active-class="active" class="nav-link" to="/">Home<span class="sr-only">(current)</span>
               </router-link>
             </li>
             <li class="nav-item">
 <!--              about page button-->
-              <router-link class="nav-link" to="/about">About</router-link>
+              <router-link active-class="active" class="nav-link" to="/about">About</router-link>
             </li>
             <li class="nav-item">
 <!--              contacts page button-->
-              <router-link class="nav-link" to="/contacts">Contacts</router-link>
+              <router-link active-class="active" class="nav-link" to="/contacts">Contacts</router-link>
             </li>
             <li class="nav-item">
 <!--              website design class page button-->
-              <router-link class="nav-link" to="/webdesign">Web Design</router-link>
+              <router-link active-class="active" class="nav-link" to="/webdesign">Web Design</router-link>
             </li>
             <li class="nav-item">
 <!--              posts page button-->
-              <router-link class="nav-link" to="/posts">Posts</router-link>
+              <router-link active-class="active" class="nav-link" to="/posts">Posts</router-link>
             </li>
             <li class="nav-item">
 <!--              my generic social media account name-->
@@ -85,5 +85,12 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap');
 /*import a nice font from google fonts*/
 
-/*no styles for the navbar just good ole bootstrap*/
+.nav-link:hover, .navbar-brand:hover {
+  color: #09FBD3 !important;
+  cursor: pointer;
+}
+
+.active {
+  color: #08F7FE !important;
+}
 </style>

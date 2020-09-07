@@ -15,6 +15,8 @@ import Postpage from "@/components/Postpage";
 Vue.use(Router)
 
 export default new Router({
+    linkActiveClass: "active",
+    linkExactActiveClass: "exact-active",
     // I like history mode better but depending on the server it may not support it
     mode: 'history',
     // Defining all my routes along with a name and component to go with it
