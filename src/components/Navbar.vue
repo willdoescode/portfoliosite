@@ -63,8 +63,10 @@ export default {
         'Contact Me': 'mailto:williamlane923@gmail.com',
         'My Github': 'https://github.com/willdoescode',
         'My Twitter': 'https://twitter.com/willdoescode'
-      }
+      },
     }
+  },
+  methods: {
   },
   link: [
     //  including crap to make site work
@@ -86,11 +88,13 @@ export default {
 /*import a nice font from google fonts*/
 
 .nav-link:hover, .navbar-brand:hover {
-  color: #09FBD3 !important;
+  transition: 0.3s !important;
+  color: #FE53BB !important;
   cursor: pointer;
 }
 
 .active {
+  transition: 0.3s !important;
   color: #08F7FE !important;
 }
 </style>

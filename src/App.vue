@@ -20,7 +20,7 @@ export default {
   // This dynamically changes the tab name based off of the current route
   watch: {
     '$route' (to) {
-      document.title = to.meta.title || 'Your Website'
+      document.title = to.meta.title || 'Will Does Tech'
     }
   },
 }

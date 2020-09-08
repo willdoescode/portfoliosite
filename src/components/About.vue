@@ -1,5 +1,9 @@
 <template>
   <div class="container">
+    <vue-scroll-progress-bar
+        height="5px"
+        background-color="linear-gradient(to right, #08F7FE, #09FBD3, #FE53BB, #F5D300)"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <p class="about">
 <!--      my about paragraph-->
@@ -40,16 +44,24 @@ export default {
   display: flex;
   justify-content: center;
   margin: 10% auto;
-
 }
 
 .container p {
   /*make text width smaller*/
   color: white;
   font-family: 'Baloo Tamma 2', cursive;
-  font-size: 20px;
+  font-size: 23px;
   width: 60vw;
   border: 1px solid #08F7FE;
+  animation: wow 3s linear infinite;
+  -moz-animation-play-state: paused;
+  animation-play-state: paused;
+  transition: 0.3s;
+}
+
+.container p:hover {
+  -moz-animation-play-state: running;
+  animation-play-state: running;
 }
 
 .container a {
@@ -62,5 +74,20 @@ export default {
 .about {
   /*a lil padding never hurts*/
   padding: 10px;
+}
+
+@keyframes wow {
+  from {
+    border: 1px solid #08F7FE;
+  }
+  to {
+    border: 1px solid #FE53BB;
+  }
+  to {
+    border: 1px solid #F5D300;
+  }
+  to {
+    border: 1px solid #FE53BB;
+  }
 }
 </style>
